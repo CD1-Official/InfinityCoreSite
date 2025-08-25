@@ -1,0 +1,2 @@
+# InfinityCoreSite
+web
