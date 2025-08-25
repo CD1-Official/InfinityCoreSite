@@ -137,3 +137,36 @@ footer {
   font-size: 1rem;
   color: #ccc;
 }
+
+.info-area {
+  padding: 2rem;
+  background: linear-gradient(to right, #1e1e2f, #2a2a3f);
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.info-area h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.info-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.info-box {
+  flex: 1;
+  min-width: 250px;
+  background-color: #2f2f45;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.info-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
