@@ -83,3 +83,57 @@ footer {
   margin: 3rem 0 1rem;
   color: #ffccff;
 }
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.plans-section {
+  flex: 1;
+  max-width: 300px;
+}
+
+.features-section {
+  flex: 2;
+  min-width: 400px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #ffccff;
+}
+
+.plan-card,
+.feature-card {
+  background-color: #1e1e2f;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.plan-card:hover,
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-card h3,
+.feature-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #ffd700;
+}
+
+.plan-card p,
+.feature-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
