@@ -5,6 +5,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>InfinityCore</title>
   <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e1e2f;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #ff0077;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .discord-invite {
+      margin-top: 1rem;
+    }
+
+    .discord-logo {
+      width: 24px;
+      vertical-align: middle;
+      margin-right: 0.5rem;
+    }
+
+    .content-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin: 3rem auto;
+      max-width: 1200px;
+      padding: 0 2rem;
+    }
+
+    .plans-section {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .features-section {
+      flex: 2;
+      min-width: 400px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      color: #ffccff;
+    }
+
+    .plan-card,
+    .feature-card {
+      background-color: #1e1e2f;
+      border: 1px solid #444;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease;
+    }
+
+    .plan-card:hover,
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .plan-card h3,
+    .feature-card h3 {
+      margin-top: 0;
+      font-size: 1.4rem;
+      color: #ffd700;
+    }
+
+    .plan-card p,
+    .feature-card p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #1e1e2f;
+      margin-top: 3rem;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -20,31 +116,33 @@
   </header>
 
   <main>
-    <section class="features">
-      <h2 class="section-title">✨ Core Features</h2>
-      <div class="feature">
-        <h3>🎛️ Modular Commands</h3>
-        <p>Drag-and-drop logic for custom triggers and responses.</p>
+    <section class="content-wrapper">
+      <div class="plans-section">
+        <h2 class="section-title">💎 Plans & Pricing</h2>
+        <div class="plan-card">
+          <h3>🆓 Free Tier</h3>
+          <p>Basic features with frequent maintenance downtime.</p>
+        </div>
+        <div class="plan-card">
+          <h3>🌟 Premium Tier</h3>
+          <p>Advanced features, priority uptime, and smoother performance.</p>
+        </div>
       </div>
-      <div class="feature">
-        <h3>📊 Live Analytics</h3>
-        <p>Track usage, engagement, and bot performance in real time.</p>
-      </div>
-      <div class="feature">
-        <h3>🎨 Branding Tools</h3>
-        <p>Design avatars, lore, and server visuals that stand out.</p>
-      </div>
-    </section>
 
-    <section class="plans">
-      <h2 class="section-title">💎 Plans & Pricing</h2>
-      <div class="plan">
-        <h3>🆓 Free Tier</h3>
-        <p>Basic features with frequent maintenance downtime.</p>
-      </div>
-      <div class="plan">
-        <h3>🌟 Premium Tier</h3>
-        <p>Advanced features, priority uptime, and smoother performance.</p>
+      <div class="features-section">
+        <h2 class="section-title">✨ Core Features</h2>
+        <div class="feature-card">
+          <h3>🎛️ Modular Commands</h3>
+          <p>Drag-and-drop logic for custom triggers and responses.</p>
+        </div>
+        <div class="feature-card">
+          <h3>📊 Live Analytics</h3>
+          <p>Track usage, engagement, and bot performance in real time.</p>
+        </div>
+        <div class="feature-card">
+          <h3>🎨 Branding Tools</h3>
+          <p>Design avatars, lore, and server visuals that stand out.</p>
+        </div>
       </div>
     </section>
   </main>
