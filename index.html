@@ -3,169 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>InfinityCore</title>
+  <title>InfinityCore Bot Hosting</title>
   <link rel="stylesheet" href="style.css" />
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #121212;
-      color: #f0f0f0;
-    }
-
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
-      background-color: #1e1e2f;
-    }
-
-    .cta-button {
-      display: inline-block;
-      margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #ff0077;
-      color: white;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
-
-    .discord-invite {
-      margin-top: 1rem;
-    }
-
-    .discord-logo {
-      width: 24px;
-      vertical-align: middle;
-      margin-right: 0.5rem;
-    }
-
-    .content-wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      margin: 3rem auto;
-      max-width: 1200px;
-      padding: 0 2rem;
-    }
-
-    .plans-section {
-      flex: 1;
-      max-width: 300px;
-    }
-
-    .features-section {
-      flex: 2;
-      min-width: 300px;
-    }
-
-    .section-title {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-      color: #ffccff;
-    }
-
-    .plan-card,
-    .feature-card {
-      background-color: #1e1e2f;
-      border: 1px solid #444;
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-      transition: transform 0.2s ease;
-    }
-
-    .plan-card:hover,
-    .feature-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .plan-card h3,
-    .feature-card h3 {
-      margin-top: 0;
-      font-size: 1.4rem;
-      color: #ffd700;
-    }
-
-    .plan-card p,
-    .feature-card p {
-      font-size: 1rem;
-      color: #ccc;
-    }
-
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      background-color: #1e1e2f;
-      margin-top: 3rem;
-    }
-  </style>
 </head>
 <body>
   <header>
-    <h1>InfinityCore</h1>
-    <p class="tagline">Build your bot. Brand your server. Automate everything.</p>
-    <a href="dashboard.html" class="cta-button">🚀 Launch Builder</a>
-    <div class="discord-invite">
-      <a href="https://discord.gg/nedszvRJV7" target="_blank">
-        <img src="https://cdn.jsdelivr.net/gh/edent/SuperTinyIcons/images/svg/discord.svg" alt="Discord" class="discord-logo" />
-        <span>Join our Discord</span>
-      </a>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">The Team</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Leaderboard</a></li>
+        <li><a href="#">Vote</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main>
-    <div class="info-area">
-      <h2>📦 Overview</h2>
-      <div class="info-grid">
-        <div class="info-box">
-          <h3>Plans</h3>
-          <p>Choose from flexible tiers that suit your server’s needs—from basic automation to full branding and moderation suites.</p>
-        </div>
-        <div class="info-box">
-          <h3>Core Features</h3>
-          <p>Each bot includes modular features like invite tracking, message leaderboards, auto-role assignment, and mod logs—designed for seamless integration and polish.</p>
-        </div>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Welcome to InfinityCore 👋</h1>
+      <p>Discord bots are powerful—but hosting them shouldn’t be a headache. InfinityCore gives you blazing-fast, reliable hosting with custom dashboards, automation tools, and support that actually understands your needs.</p>
+      <div class="buttons">
+        <a href="#" class="btn">Join Discord</a>
+        <a href="#" class="btn">Dashboard Login</a>
+        <a href="#" class="btn donate">Donate</a>
       </div>
     </div>
+    <div class="hero-image">
+      <!-- Placeholder for bot avatar or server rack graphic -->
+      <img src="bot-avatar.png" alt="InfinityCore Bot" />
+    </div>
+  </section>
 
-    <section class="content-wrapper">
-      <div class="plans-section">
-        <h2 class="section-title">💎 Plans & Pricing</h2>
-        <div class="plan-card">
-          <h3>🆓 Free Tier</h3>
-          <p>Basic features with frequent maintenance downtime.</p>
-          <p>Price: Free</p>
-        </div>
-        <div class="plan-card">
-          <h3>🌟 Premium Tier</h3>
-          <p>Advanced features, priority uptime, and smoother performance.</p>
-          <p>Price: 10 invites</p>
-        </div>
-      </div>
-
-      <div class="features-section">
-        <h2 class="section-title">✨ Core Features</h2>
-        <div class="feature-card">
-          <h3>🎛️ Modular Commands</h3>
-          <p>Drag-and-drop logic for custom triggers and responses.</p>
-        </div>
-        <div class="feature-card">
-          <h3>📊 Live Analytics</h3>
-          <p>Track usage, engagement, and bot performance in real time.</p>
-        </div>
-        <div class="feature-card">
-          <h3>🎨 Branding Tools</h3>
-          <p>Design avatars, lore, and server visuals that stand out.</p>
-        </div>
-      </div>
-    </section>
-  </main>
+  <section class="highlights">
+    <div class="card">
+      <h3>💎 Top Supporter</h3>
+      <p><strong>@ByteForge</strong> – Thanks for keeping the servers alive!</p>
+    </div>
+    <div class="card">
+      <h3>👤 Featured Developer</h3>
+      <p><strong>@Claret</strong> – Architect behind our sleek dashboards and automation magic.</p>
+    </div>
+    <div class="card">
+      <h3>🛠️ Latest Update</h3>
+      <p><strong>v2.3 – Panel Overhaul</strong>: New UI, faster load times, and multi-bot support!</p>
+    </div>
+  </section>
 
   <footer>
-    <p>© 2025 InfinityCore. All rights reserved.</p>
+    <p>&copy; 2025 InfinityCore Bot Hosting. All rights reserved.</p>
   </footer>
+</body>
+</html>
 
   <script src="script.js"></script>
 </body>
